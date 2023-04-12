@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter: Attach to Device",
+            "type": "dart",
+            "request": "attach"
+        },
+         
+
+        {
+            "name": "projeto_01",
+            "cwd": "01-introducao\\projeto_01",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "projeto_01 (profile mode)",
+            "cwd": "01-introducao\\projeto_01",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "projeto_01 (release mode)",
+            "cwd": "01-introducao\\projeto_01",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
